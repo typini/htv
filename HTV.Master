@@ -1,0 +1,58 @@
+<%--///////////////////////////////////////////////
+// File:  HTV.Master
+// Program Name:  HTV_v2.0
+// Programmer:  Tyree Pini
+// Group:  Team D
+// Course:  CIS470 Senior Project
+// Date:  19 April 2017
+// Website:  http://htvteamd.azurewebsites.net/
+///////////////////////////////////////////////--%>
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HTV.master.cs" Inherits="HTV.Webform928" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Holiday Travel Vehicles</title>
+    <link type="text/css" href="main.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Oswald', sans-serif;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background:#FCFAFC;">
+    <form id="form1" runat="server">
+    <header style="background:#66AAE0; position: absolute; top:0px;left:0px; width:100%; height:90px; padding-left: 270px; font-size:150%; color:white;">
+
+        <asp:ContentPlaceHolder ID="ContentHeader" runat="server">
+            This is ContentHeader
+        </asp:ContentPlaceHolder>
+    </header>
+    <div id="logo" style="position:absolute; top:-5px; left:10px; height:auto; width: auto;">
+            <a href="MainMenu.aspx"><img src="HTVLogo_v2.0.gif" style="width:270px" /></a>
+    </div>
+    <div>
+        <aside style="background:#FCFAFC; width: 270px; height:900px; text-align:center; float:left; margin: 0px; padding-top: 80px;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                This is ContentPlaceHolder1
+            </asp:ContentPlaceHolder>
+        </aside>
+        <div id="mainBody" style="background:#FCFAFC; width:900px; height: 700px; text-align:left; margin: 0px; padding-top: 80px; padding-bottom: 50px;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                This is ContentPlaceHolder2
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <footer style="background:#66AAE0; width:100%; height:75px; text-align:center; font-size:85%; color:white; padding-top:5px; position: fixed; bottom: 0px; left: 0px;">
+        <asp:ContentPlaceHolder ID="ContentFooter" runat="server">
+            <asp:Label ID="Warnings" class="warning" runat="server" Text=""></asp:Label><br />Copyright &copy; 2017 Team D
+        </asp:ContentPlaceHolder>
+    </footer>
+    </form>
+</body>
+</html>
