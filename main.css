@@ -1,0 +1,117 @@
+/*
+///////////////////////////////////////////////
+// File:  main.css
+// Program Name:  HTV_v2.0
+// Programmer:  Tyree Pini
+// Group:  Team D
+// Course:  CIS470 Senior Project
+// Date:  19 April 2017
+// Website:  http://htvteamd.azurewebsites.net/
+///////////////////////////////////////////////
+*/
+
+.lbls{
+    font-size:95%;
+    position: static;
+    text-align: left;
+    width: 400px;
+    padding-left: 20px;
+    height: 20px;
+    }
+
+.txts{
+    font-size:105%;
+    position: absolute;
+    width: 300px;
+    left: 500px;
+    height: 20px;
+    right: 478px;
+}
+
+.chbs{
+    padding-left: 25px;
+}
+
+.clears{
+    height: 20px;
+}
+
+.buttons{
+            margin: 5px;
+            background-color: #7ec9ff;
+            border-radius: 6px;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            height: 40px;
+            width: 200px;
+            color: #222266;
+}
+
+.mainButtons{
+    margin: 10px;
+    padding: 5px;
+    background-color: #1f4e7a;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    height: 160px;
+    width: 160px;
+    font-size:110%;
+    color: #CCEDff;
+    white-space: normal;
+    float: left;
+}
+
+.mainButtons:hover, .mainLabels:hover{
+    background-color: #3f6e9a;
+}
+
+.mainLabels{
+    font-size: 95%;
+    border: solid 2.5px black;
+    background-color: #1f4e7a;
+    color: #CCEDff;
+    margin: 10px;
+    padding: 9px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contentButtons{
+            margin: 3px 3px 20px 3px;
+            background-color: #1f4e7a;
+            border-radius: 6px;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            height: 30px;
+            width: 120px;
+            float: right;
+            color: #CCEDff;
+        }
+
+.activeButtons{
+            margin: 5px;
+            background-color: #1f4e7a;
+            border-radius: 6px;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            height: 40px;
+            width: 200px;
+            color: #CCEDff;
+        }
+
+.inactiveButtons{
+            margin: 5px;
+            background-color: #eaeaea;
+            border-radius: 6px;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            height: 40px;
+            width: 200px;
+            color: #888888;
+        }
+
+.warning{
+    color: #ff0000;
+    background-color: #000044;
+    font-size: 160%;
+}
